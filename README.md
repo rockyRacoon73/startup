@@ -9,7 +9,7 @@ Would you like to share your enthusiasm for a particular choice of media with yo
 
 ### Design
 
-** sign in page** 
+**sign in page** 
 ![image](https://github.com/rockyRacoon73/startup/assets/90075184/ec95815e-35ef-4b5e-b92a-ef6aaecd88f4)
 
 
@@ -33,18 +33,18 @@ Would you like to share your enthusiasm for a particular choice of media with yo
 
 
 
-** Media Profile **
+**Media Profile**
 
 
 ![media page](https://github.com/rockyRacoon73/startup/assets/90075184/ec53fe26-8c98-4e32-af26-59e4f2d4ed64)
 
-** Individual Review Page **
+**Individual Review Page**
 
 
 ![individual review](https://github.com/rockyRacoon73/startup/assets/90075184/8a0f4fa3-84b6-4063-b587-1b0576db7269)
 
 
-** New/edit Review ** 
+**New/edit Review** 
 
 
 ![image](https://github.com/rockyRacoon73/startup/assets/90075184/dd8c925b-ed41-4049-a26e-627ec5472b55)
