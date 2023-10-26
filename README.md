@@ -12,22 +12,41 @@ Would you like to share your enthusiasm for a particular choice of media with yo
 ** sign in page** 
 ![image](https://github.com/rockyRacoon73/startup/assets/90075184/ec95815e-35ef-4b5e-b92a-ef6aaecd88f4)
 
+
+
 **Reviews Page**
+
+
 ![Reviews Page](https://github.com/rockyRacoon73/startup/assets/90075184/d3f835c8-8d0e-4d5b-ac5f-466474f3a4f3)
 
 **Saved Page**
+
+
 ![Saved Page](https://github.com/rockyRacoon73/startup/assets/90075184/7266e664-55e9-4b13-9a55-0541b8c16d65)
 
+
+
 **User Profile**
+
+
 ![user page](https://github.com/rockyRacoon73/startup/assets/90075184/9c78d783-5cb8-496e-9d83-7776ce02e8dc)
 
+
+
 ** Media Profile **
+
+
 ![media page](https://github.com/rockyRacoon73/startup/assets/90075184/ec53fe26-8c98-4e32-af26-59e4f2d4ed64)
 
 ** Individual Review Page **
+
+
 ![individual review](https://github.com/rockyRacoon73/startup/assets/90075184/8a0f4fa3-84b6-4063-b587-1b0576db7269)
 
+
 ** New/edit Review ** 
+
+
 ![image](https://github.com/rockyRacoon73/startup/assets/90075184/dd8c925b-ed41-4049-a26e-627ec5472b55)
 
 
