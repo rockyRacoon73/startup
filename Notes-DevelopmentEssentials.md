@@ -37,3 +37,20 @@ if a file has been changed in two different commits that are unsynced (branching
 ## forks
 fork lets you copy a public repository 
 forks allow you to modify the repository fork and push the changes as a _pull request___
+
+# Development and production environments
+
+## Automating your development
+to run a development from your console window in your development environment use a command like:
+
+`./deployService.sh -k ~/prod.pem -h yourdomain.click -s simon`
+
+the -k parameter provides teh credential file neccesary to acces your production environment
+the -h parameter is the domain naim of your production environment
+the -s parameter represents the name of the application you are deplying (`simon` or `startup`)
+
+# CodePen
+this course we use CodePen to experiemnt in HTML, CSS, JavaScript, and React
+Saves stuff in a "pen"
+
+immediately renders code in preview window so you can quickly iterate ideas 
