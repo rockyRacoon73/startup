@@ -2,17 +2,15 @@
 
 ## cloning repository
 
-` git clone https://github.com/webprogramming260/startup-example.git`
+`git clone https://github.com/webprogramming260/startup-example.git`
+`test`
 
 ## making changes
 
 ```
  git push
-
  git add test.md
-
  git commit -am "update(notes) thoughts about startup applications"
-
  git push
 ```
 
