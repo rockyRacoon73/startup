@@ -2,7 +2,7 @@
 
 ##cloning repository
 
-'  git clone https://github.com/webprogramming260/startup-example.git'
+' git clone https://github.com/webprogramming260/startup-example.git'
 
 ##making changes
 '''
