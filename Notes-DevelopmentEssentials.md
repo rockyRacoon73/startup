@@ -1,10 +1,11 @@
-#GitHub
+# GitHub
 
-##cloning repository
+## cloning repository
 
 ' git clone https://github.com/webprogramming260/startup-example.git'
 
-##making changes
+## making changes
+
 '''
  git push
 
@@ -31,7 +32,7 @@ Your branch is behind 'origin/main' by 1 commit, and can be fast-forwarded.
 git pull
 '''
 
-##merge conflicts
+## merge conflicts
 if a file has been changed in two different commits that are unsynced (branching) then they will need to be merged
 'git pull' will give a conflict warning and then you will need to go in a change the files in question, and then commit and push the changes
 
