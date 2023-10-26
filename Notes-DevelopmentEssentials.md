@@ -3,7 +3,7 @@
 ## cloning repository
 
 `git clone https://github.com/webprogramming260/startup-example.git`
-`test`
+
 
 ## making changes
 
