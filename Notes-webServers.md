@@ -23,9 +23,9 @@ domane names may have multiple IP addresses (such as amazon.com)  in cas server 
 
 domain names 
 * a root and 1+ subdomains
- *`[subdomain.]*secondary.top`
- *root domain is represented by secondary level and top level domains
- *TLD representes things like com, edu, or clock
+ * `[subdomain.]*secondary.top`
+ * root domain is represented by secondary level and top level domains
+ * TLD representes things like com, edu, or clock
 * ex: root domains byu.edu, google.com, cs260.click
 * ICAAN controls list of TLDs
 * root domain owner can create any number of subdomains
