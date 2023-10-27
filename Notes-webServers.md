@@ -49,5 +49,3 @@ so you can set `time to live` (`TIL`) min to days and caching layers should hono
 
 ## Manage your DNS records
 * 
-
-
