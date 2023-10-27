@@ -9,4 +9,4 @@ a computing device that is hosting a web service that knows how to accept incomi
 # Amazon WEb Services - EC2
 
 **opening startup server in browser**
-`[http://](http://18.232.89.80/)http://18.232.89.80/`
+`http://18.232.89.80`
