@@ -17,7 +17,7 @@ a computing device that is hosting a web service that knows how to accept incomi
 restrict permissions
  `chmod  600 [key pair file]`
 
- # Domain Names
+# Domain Names
 get IP address for any domain - `dig`
 domane names may have multiple IP addresses (such as amazon.com)  in cas server listening at IP adress is not responding
 
@@ -43,4 +43,11 @@ there are a lot of levels to caching
 ( browser checks its cache of names for domain, if not contacts DNS and gets IP, if not in DNS, DNS contacts `authoritative name server` as last resort - unkown domain name error
 caching can be frustrating when updating domain name
 so you can set `time to live` (`TIL`) min to days and caching layers should honor TIL and clear cache
+
+# Amazon Web Services - Route 53
+* in order to make server easy to remember and secure, buy a domain name, and then create DNS records
+
+## Manage your DNS records
+* 
+
 
