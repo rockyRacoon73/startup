@@ -47,5 +47,10 @@ so you can set `time to live` (`TIL`) min to days and caching layers should hono
 # Amazon Web Services - Route 53
 * in order to make server easy to remember and secure, buy a domain name, and then create DNS records
 
+* Route 53 handles everything DNS related
+* NS (name server) records - contains the names of authoratitatve servers that authorize you to place DNS records in this DNS server
+* SOA (start of authority) provides contact info about the owner of this domain name
+
 ## Manage your DNS records
-* 
+* A (address) type record - represents the wildcard subdomain name and your server's public ip address
+  
