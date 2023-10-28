@@ -196,3 +196,17 @@ in order to create an input you specify the desired type along with any other at
 | value | The initial value of the input |
 | required | Signifies that a value is required in order to be valid |
 
+![image](https://github.com/rockyRacoon73/startup/assets/90075184/3676f6f5-37a7-4a27-8e31-0189ccfaea25)
+
+## Validating input
+several input elements have validation built into them
+(such as url number, email)
+* you can also specify the `required` att on an input element to mark it to requiring a vaule before being submitted
+
+* `pattern` att exists on  exists on text, search, url, tel, email, and password inputs. provides reg exp
+
+* you should have validation built into JavaScript that checks input data to ensure everything is valid before it is submitted
+* use CSS for visualizing validity of input
+* give good user feed back as, before the user begins to input
+
+
