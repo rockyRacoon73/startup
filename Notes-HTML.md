@@ -209,4 +209,67 @@ several input elements have validation built into them
 * use CSS for visualizing validity of input
 * give good user feed back as, before the user begins to input
 
+# HTML media elements
+The `img`, `audio`, and `video` elements are all simple references to an external file, but `svg` and `canvas` both contain the code to render a visual image that can even be animated.
+
+## external media
+media tags that ref ext media all take a URL as an att
+full or relative path
+Full path: protocol, domain name, and path to file
+`https://images.pexels.com/photos/164170/pexels-photo-164170.jpeg`
+relative path: references a file served from same location of HTML page rendering the element
+
+`images/photo.jpg`
+
+## image 
+`<img alt="mountain landscape" src="https://images.pexels.com/photos/164170/pexels-photo-164170.jpeg" />`
+
+## audio
+to include an audio file in your content use `audio` element and specify `src` att with url to audio
+* can add `controls` att to let user control playback (no controls no vis rep of audio )
+* `autoplay` plays audio as soon as audio file is loaded
+* `loop` att keeps it playing over and over
+* `<audio controls src="testAudio.mp3"></audio>`
+* (strongly discouraged automatically playing audio unless give user a way to opt-in)
+
+## video
+`video` element specify `src` att with URL to source video
+can include `controls` and `autoplay` att
+
+(may need to include `crossorigin="anonymous"` att if you are requesting files from a diff domain that the one serving your content)
+
+```
+<video controls width="300" crossorigin="anonymous">
+  <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" />
+</video>
+```
+
+## internal media
+`svg` and `canvas` create images within HTML
+
+### scalable vector graphics (SVG)
+combined with JavaScript and CSS can produce some amazing visualizations
+ex:
+```
+<svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg" stroke="red" fill="red" style="border: 1px solid #000000">
+  <circle cx="150" cy="100" r="50" />
+</svg>
+```
+
+### canvas
+`canvas` element is fairly simple but drawing on canvas requires javascript support
+
+<canvas id="canvasDemo" width="300" height="200" style="border: 1px solid #000000"></canvas>
+<script>
+  const ctx = document.getElementById('canvasDemo').getContext('2d');
+  ctx.beginPath();
+  ctx.arc(150, 100, 50, 0, 2 * Math.PI);
+  ctx.fillStyle = 'red';
+  ctx.strokeStyle = 'red';
+  ctx.fill();
+  ctx.stroke();
+</script>
+
+
+
 
