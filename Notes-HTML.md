@@ -189,7 +189,7 @@ in order to create an input you specify the desired type along with any other at
 `<label for="checkbox1">Check me</label> <input type="checkbox" name="varCheckbox" value="checkbox1" checked />`
 
 | Attribute |	Meaning |
-|_|_|
+| --------- | -------------------|
 | name	| The name of the input. This is submitted as the name of the|
 | input if | used in a form |
 | disabled | Disables the ability for the user to interact with the input |
