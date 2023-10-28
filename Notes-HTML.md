@@ -2,7 +2,7 @@
 ## Hypertext Markup Language
 HTML provides foundational content structuture
 
-# Elements and tags
+## Elements and tags
 HTML `elements` are represented with enclosing `tags` that may enclose other elements of text. 
 * `p` -> paragraph element
 * tags refer to a delimited textual name that we can use to designate the start and end of an HTML element
@@ -37,11 +37,11 @@ every HTML element may have attributes
 
 `<p id="hello" class="greeting">Hello world</p>`
 
-# Hyperlinks
+## Hyperlinks
 represented with anchor (`a`) element that has attribute containg adress of hyperlink ref (`href`)
 `<a href="https://byu.edu">Go to the Y</a>`
 
-# Complete example
+## Complete example
 HTML defines a header (`<!DOCTYPE html>`) that tells the browser the type and version of the document. You should always include this at the top of the HTML file. 
 
 ```
@@ -64,7 +64,7 @@ HTML defines a header (`<!DOCTYPE html>`) that tells the browser the type and ve
 HTML provides content and structure
 Layout is left up to CSS (cascading stylesheets)
 
-# Common elements
+## Common elements
 | element   | meaning                                                                |
 | --------- | ---------------------------------------------------------------------- |
 | `html`    | The page container                                                     |
