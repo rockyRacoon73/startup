@@ -57,11 +57,11 @@ Built structure for application using HTML
 Reduced the complexity of the project and altered Description deliverable.  
 
 ## HTML pages
-index.html - log in/ sign up page 
-reviews.html - view titles of published reviews, ranked by most likes
-profile.html - view the profile and reviews of a particular user
-fullReview.html - read the full review 
-publish.html - form for publishing a review 
+* index.html - log in/ sign up page 
+* reviews.html - view titles of published reviews, ranked by most likes
+* profile.html - view the profile and reviews of a particular user
+* fullReview.html - read the full review 
+* publish.html - form for publishing a review 
 
 ## Links 
 * header menu links to log in page, reviews.html, and publish.html
