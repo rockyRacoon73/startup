@@ -271,5 +271,15 @@ ex:
 </script>
 
 
+# Deploy to production
+Use the deployFiles.sh script found in the example code to deploy Simon to your production environment. Take some time to understand how the script works. The script does three things. Deletes any previous deployment for simon, copies up all of the files found in the project directory, and makes sure Caddy is hosting the files under the simon subdomain of your domain (e.g. simon.yourdomain.click).
+
+`./deployFiles.sh -k <yourpemkey> -h <yourdomain> -s simon`
+For example,
+
+`./deployFiles.sh -k ~/keys/production.pem -h yourdomain.click -s simon`
+⚠ Make sure you run deployFiles.sh from the console in your project directory.
+
+
 
 
