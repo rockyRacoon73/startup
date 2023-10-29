@@ -32,7 +32,7 @@
                         </td>
                         
                         <td>
-                            <input type="text" id="username"/>
+                            <input type="text" id="username" required minlength="1" maxlength="20"/>
                         </td>
 
                     </tr>
@@ -43,7 +43,7 @@
                         </td>
                         
                         <td>
-                            <input type="text" id="password"/>
+                            <input type="text" id="password" required minlength="1" maxlength="20"/>
                         </td>
                     </tr>
                     <tr>
@@ -57,6 +57,8 @@
                         </td>
                     </tr>
                 </table>
+
+                <p>username and password must be 1-30 characters in length</p>
                 
                 
             </form>
