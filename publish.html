@@ -21,42 +21,28 @@
 
         <main> 
 
-            <div> 
-                <h2>Review Title</h2>
-                <h3>Movie Title</h3>
-                <h4>Movie: <span>4</span>/5 stars. Review: <span>12</span> likes</h4>
-                <h4><span>publisherUserName</span> <span>12/3/2022</span></h4>
-            </div>
-            <hr />
-            <div> 
-                <h2>Review Title</h2>
-                <h3>Movie Title</h3>
-                <h4>Movie: <span>4</span>/5 stars. Review: <span>12</span> likes</h4>
-                <h4><span>publisherUserName</span> <span>12/3/2022</span></h4>
-            </div>
-            <hr />
-            <div> 
-                <h2>Review Title</h2>
-                <h3>Movie Title</h3>
-                <h4>Movie: <span>4</span>/5 stars. Review: <span>12</span> likes</h4>
-                <h4><span>publisherUserName</span> <span>12/3/2022</span></h4>
-            </div>
-            <hr />
-            <div> 
-                <h2>Review Title</h2>
-                <h3>Movie Title</h3>
-                <h4>Movie: <span>4</span>/5 stars. Review: <span>12</span> likes</h4>
-                <h4><span>publisherUserName</span> <span>12/3/2022</span></h4>
-            </div>
-            <hr />
-            <div> 
-                <h2>Review Title</h2>
-                <h3>Movie Title</h3>
-                <h4>Movie: <span>4</span>/5 stars. Review: <span>12</span> likes</h4>
-                <h4><span>publisherUserName</span> <span>12/3/2022</span></h4>
-            </div>
-            <hr />
+            <form> 
+                <div>
+                <h2><label for="reviewTitleInput">Review Title:</label> <input type="text" name="reviewTitleInput" min="1" maxlength="100" required/></h2>
+                <h3><label for="movieTitleInput">Movie Title:</label> <input type="text" name="movieTitleInput" min="1" maxlength="100" required/></h3>
+                <h4>Movie Rating: <span><input type="number" min="0" max="10" step="1" name="ratingInput" required></span>/10 stars. Review likes: n/a</h4>
+                <h4>publisherUserName 
+                    <span>
+                        <label for="reviewDateInput">Date:</label> <input type="date" name="reviewDateInput" required/>
+                    </span>
+                </h4>
+                </div>
+            </form>
             
+            <p>Titles character limit: 100 | Review character limit: 3000</p>
+
+            <div>
+                
+                <textarea rows = "20" cols = "120" name = "reviewTextInput" maxlength="3000"></textarea>
+                
+            </div>
+            
+            <hr />  
         </main>
 
         <footer>
