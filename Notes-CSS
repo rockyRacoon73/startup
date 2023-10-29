@@ -1,1 +1,76 @@
+# Cascading Style Sheets
+
+css is primarily concerned with defining rules
+
+```
+p {
+  font-family: sans-serif;
+  font-size: 2em;
+  color: navy;
+  text-shadow: 3px 3px 1px #cccccc;
+}
+```
+
+A ruleset for each selector: selector `p` selects all paragraph elements in HTML document
+4 declarations changing properties to some value
+
+
+## Associating CSS with HTML
+3 ways:
+1. use `style` att in HTML element and explicitly assign one or more declarations
+  `<p style="color:green">CSS</p>`
+2. use style element to define css rules within HTML. Shoud appear in head of the document so applies to all
+```
+<head>
+  <style>
+    p {
+      color: green;
+    }
+  </style>
+</head>
+<body>
+  <p>CSS</p>
+</body>
+```
+3. use html `link` element to create ref to external css rule file. must be in `head`
+'<link rel="stylesheet" href="styles.css" />'
+
+## Cascading styles
+sometimes html elements inherit rules from  parents
+```
+<body>
+  <p><span style="color:black">CSS</span></p>
+</body>
+```
+
+```
+body {
+  color: red;
+}
+p {
+  color: green;
+}
+span {
+  color: blue;
+}
+```
+
+cascade down from highest nodes to lowest level. lower levls overide
+test with inspect on chrome
+
+## box model
+CSS defiens everything as boxes
+* innermost box - text or image
+* padding 
+* border 
+* margin (white space)
+
+default width and height of an element is width and height of content box
+By default, the width and height of an element is defined by the width and 
+height of the content box. You can change the box-sizing CSS property from
+the default value of content-box to border-box in order to redefine the width
+and height to also include the padding and the border. This often makes it
+easier to style elements when their visual size matches their actual size.
+
+
 
